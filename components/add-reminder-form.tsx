@@ -164,7 +164,7 @@ export default function AddReminderForm({ onAdd }: AddReminderFormProps) {
   };
 
   return (
-    <Card className="bg-slate-800 border-slate-700 sticky top-6">
+    <Card className="bg-slate-800 border-slate-700 sticky top-6 max-w-[90vw] ">
       <CardHeader>
         <CardTitle className="text-white">Add Reminder</CardTitle>
       </CardHeader>

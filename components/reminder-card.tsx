@@ -64,7 +64,7 @@ export default function ReminderCard({
 
   return (
     <Card
-      className={`border-0 overflow-hidden transition-all relative ${
+      className={`border-0 overflow-hidden transition-all relative max-w-[90vw] ${
         reminder.isCompleted
           ? "bg-slate-700/50 opacity-75"
           : reminder.pinned
@@ -92,7 +92,7 @@ export default function ReminderCard({
       )}
 
       <CardContent className="p-6">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           {/* Left Content */}
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-3 mb-2">

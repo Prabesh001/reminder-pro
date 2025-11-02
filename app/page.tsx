@@ -517,7 +517,7 @@ export default function Home() {
 
         {/* Sort Controls */}
         {reminders.length > 0 && (
-          <div className="mb-6 flex items-center gap-4">
+          <div className="mb-6 flex flex-col sm:items-center sm:flex-row gap-4">
             <label className="text-slate-300 text-sm">Sort by:</label>
             <select
               value={sortType}
