@@ -20,7 +20,7 @@ export async function GET() {
     // Create seeded user
     const user = await User.create({
       email: 'abcd@email.com',
-      password: '1234',
+      password: 'abcd',
     });
 
     return NextResponse.json(
